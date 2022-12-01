@@ -23,6 +23,6 @@ r.lookAt(V3(0, 0, 10), V3(0, 0, 0), V3(0, 1, 0))
 
 #Modelos con Shaders
 r.setShader(planet_shader)
-r.loadModel('./sphere.obj', translate=[512, 512, 0], scale=[300, 300, 300], rotate=(0, 0, -pi/2))
+r.loadModel('./sphere.obj', translate=[512, 512, 0], scale=[500, 500, 500], rotate=(0, 0, 0))
 
 r.glFinish("Lab_2.bmp")

@@ -406,6 +406,9 @@ class Render(object):
                     if self.active_shader:
                         color = self.active_shader(
                             y=y,
+                            x=x,
+                            width=self.width,
+                            height=self.height,
                             intensity=intensity,
                         )
                     elif texture:
