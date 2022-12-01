@@ -13,9 +13,7 @@ r = Render()
 
 r.glCreateWindow(1024, 1024)
 
-r.glClearColor(0.5, 0.6, 0.8)
-
-r.glColor(0, 0, 0)
+r.glClearColor(0, 0, 0)
 
 r.glClear()
 
